@@ -11,6 +11,7 @@
 		FF575FAA26A4ACD8002DD0C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF575FA926A4ACD8002DD0C9 /* ContentView.swift */; };
 		FF575FAC26A4ACDB002DD0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF575FAB26A4ACDB002DD0C9 /* Assets.xcassets */; };
 		FF575FAF26A4ACDB002DD0C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF575FAE26A4ACDB002DD0C9 /* Preview Assets.xcassets */; };
+		FF575FDF26A5EC6A002DD0C9 /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FF575FAB26A4ACDB002DD0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF575FAE26A4ACDB002DD0C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF575FB026A4ACDB002DD0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		FF575FA626A4ACD8002DD0C9 /* AfricaSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF575FDD26A5EC4D002DD0C9 /* Video */,
 				FF575FA726A4ACD8002DD0C9 /* AfricaSwiftUIApp.swift */,
 				FF575FA926A4ACD8002DD0C9 /* ContentView.swift */,
 				FF575FAB26A4ACDB002DD0C9 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				FF575FAE26A4ACDB002DD0C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF575FDD26A5EC4D002DD0C9 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			files = (
 				FF575FAF26A4ACDB002DD0C9 /* Preview Assets.xcassets in Resources */,
 				FF575FAC26A4ACDB002DD0C9 /* Assets.xcassets in Resources */,
+				FF575FDF26A5EC6A002DD0C9 /* cheetah.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
