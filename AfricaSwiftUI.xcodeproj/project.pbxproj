@@ -20,6 +20,7 @@
 		FF575FF126A5F0EA002DD0C9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF575FF026A5F0EA002DD0C9 /* MapView.swift */; };
 		FF575FF426A5F10E002DD0C9 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF575FF326A5F10E002DD0C9 /* GalleryView.swift */; };
 		FF575FF726A5F131002DD0C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF575FF626A5F131002DD0C9 /* MainView.swift */; };
+		FF575FFB26A5F57F002DD0C9 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF575FFA26A5F57F002DD0C9 /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FF575FF026A5F0EA002DD0C9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FF575FF326A5F10E002DD0C9 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		FF575FF626A5F131002DD0C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FF575FFA26A5F57F002DD0C9 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		FF575FA626A4ACD8002DD0C9 /* AfricaSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF575FF926A5F55C002DD0C9 /* View */,
 				FF575FE126A5ECE4002DD0C9 /* Data */,
 				FF575FDD26A5EC4D002DD0C9 /* Video */,
 				FF575FEB26A5F035002DD0C9 /* App */,
@@ -118,6 +121,14 @@
 				FF575FF626A5F131002DD0C9 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		FF575FF926A5F55C002DD0C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF575FFA26A5F57F002DD0C9 /* CoverImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			files = (
 				FF575FAA26A4ACD8002DD0C9 /* ContentView.swift in Sources */,
 				FF575FF726A5F131002DD0C9 /* MainView.swift in Sources */,
+				FF575FFB26A5F57F002DD0C9 /* CoverImageView.swift in Sources */,
 				FF575FF126A5F0EA002DD0C9 /* MapView.swift in Sources */,
 				FF575FA826A4ACD8002DD0C9 /* AfricaSwiftUIApp.swift in Sources */,
 				FF575FEE26A5F0B6002DD0C9 /* VideoListView.swift in Sources */,
