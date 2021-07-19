@@ -12,6 +12,10 @@
 		FF575FAC26A4ACDB002DD0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF575FAB26A4ACDB002DD0C9 /* Assets.xcassets */; };
 		FF575FAF26A4ACDB002DD0C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF575FAE26A4ACDB002DD0C9 /* Preview Assets.xcassets */; };
 		FF575FDF26A5EC6A002DD0C9 /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */; };
+		FF575FE626A5ED37002DD0C9 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = FF575FE226A5ED37002DD0C9 /* covers.json */; };
+		FF575FE726A5ED37002DD0C9 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = FF575FE326A5ED37002DD0C9 /* videos.json */; };
+		FF575FE826A5ED37002DD0C9 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FF575FE426A5ED37002DD0C9 /* locations.json */; };
+		FF575FE926A5ED37002DD0C9 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = FF575FE526A5ED37002DD0C9 /* animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FF575FAE26A4ACDB002DD0C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF575FB026A4ACDB002DD0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		FF575FE226A5ED37002DD0C9 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		FF575FE326A5ED37002DD0C9 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		FF575FE426A5ED37002DD0C9 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		FF575FE526A5ED37002DD0C9 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		FF575FA626A4ACD8002DD0C9 /* AfricaSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF575FE126A5ECE4002DD0C9 /* Data */,
 				FF575FDD26A5EC4D002DD0C9 /* Video */,
 				FF575FA726A4ACD8002DD0C9 /* AfricaSwiftUIApp.swift */,
 				FF575FA926A4ACD8002DD0C9 /* ContentView.swift */,
@@ -78,6 +87,17 @@
 				FF575FDE26A5EC6A002DD0C9 /* cheetah.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		FF575FE126A5ECE4002DD0C9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FF575FE526A5ED37002DD0C9 /* animals.json */,
+				FF575FE226A5ED37002DD0C9 /* covers.json */,
+				FF575FE426A5ED37002DD0C9 /* locations.json */,
+				FF575FE326A5ED37002DD0C9 /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF575FE926A5ED37002DD0C9 /* animals.json in Resources */,
 				FF575FAF26A4ACDB002DD0C9 /* Preview Assets.xcassets in Resources */,
+				FF575FE626A5ED37002DD0C9 /* covers.json in Resources */,
+				FF575FE726A5ED37002DD0C9 /* videos.json in Resources */,
 				FF575FAC26A4ACDB002DD0C9 /* Assets.xcassets in Resources */,
+				FF575FE826A5ED37002DD0C9 /* locations.json in Resources */,
 				FF575FDF26A5EC6A002DD0C9 /* cheetah.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
